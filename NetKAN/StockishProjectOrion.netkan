@@ -9,10 +9,15 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
     ],
     "install": [ {
         "find":       "Orion",
         "install_to": "GameData"
+    },
+    {
+        "find"        : "VAB",
+        "install_to"  : "Ships"
     } ]
 }
